@@ -1,0 +1,71 @@
+/* container */
+/* font family */
+/* global */
+
+/* header css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap');
+
+* {
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    /* border-bottom: 1px solid #0000001A; */
+}
+
+.bottom-border {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #0000001A;
+}
+
+.menu a,.social-icons a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-family: "inner", sans-serif;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 40px;
+}
+
+.logo h2 span {
+    color: red;
+}
+
+.logo h2 {
+    font-weight: 400;
+    font-family: "Lobster", sans-serif;
+    font-size: 24px;
+}
+/* header css */
+
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    font-family: "inner", sans-serif;
+    color: white;
+    border-radius: 16px;
+    padding: 18px 36px;
+    gap: 15px;
+    border: none;
+}
