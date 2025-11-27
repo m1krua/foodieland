@@ -14,6 +14,7 @@
 .container {
     max-width: 1280px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 header {
@@ -30,7 +31,8 @@ header {
     border-bottom: 1px solid #0000001A;
 }
 
-.menu a,.social-icons a {
+.menu a,
+.social-icons a {
     text-decoration: none;
     color: black;
     font-weight: 100;
@@ -56,16 +58,37 @@ header {
     font-family: "Lobster", sans-serif;
     font-size: 24px;
 }
+
 /* header css */
 
-.btn {
+
+/* global css */
+
+.common-btn {
     display: flex;
     align-items: center;
     background-color: black;
     font-family: "inner", sans-serif;
     color: white;
     border-radius: 16px;
-    padding: 18px 36px;
+    padding: 21px 27px;
     gap: 15px;
+    font-weight: 600;
+    font-size: 14px;
     border: none;
+}
+
+/* .common-btn {
+    border-radius: 16px;
+    border: none;
+    padding: 21px 27px;
+     font-size: 14px;
+     font-weight: 600;
+     font-family: "Inter", sans-serif;
+} */
+
+.commo-title {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
 }
