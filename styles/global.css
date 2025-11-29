@@ -1,22 +1,24 @@
-/* container */
-/* font family */
-/* global */
-
-/* header css */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap');
 
 * {
-    padding: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* container */
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    /* border: 1px solid red; */
 }
 
+/* font-family */
+/* global styles */
+/* header css */
 header {
     display: flex;
     justify-content: space-between;
@@ -28,15 +30,7 @@ header {
 .bottom-border {
     height: 1px;
     width: 100%;
-    border-bottom: 1px solid #0000001A;
-}
-
-.menu a,
-.social-icons a {
-    text-decoration: none;
-    color: black;
-    font-weight: 100;
-    font-family: "inner", sans-serif;
+    background-color: #0000001A;
 }
 
 .menu {
@@ -44,13 +38,17 @@ header {
     gap: 60px;
 }
 
+.menu a,
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
 .social-icons {
     display: flex;
     gap: 40px;
-}
-
-.logo h2 span {
-    color: red;
 }
 
 .logo h2 {
@@ -59,36 +57,31 @@ header {
     font-size: 24px;
 }
 
-/* header css */
-
-
-/* global css */
-
-.common-btn {
-    display: flex;
-    align-items: center;
-    background-color: black;
-    font-family: "inner", sans-serif;
-    color: white;
-    border-radius: 16px;
-    padding: 21px 27px;
-    gap: 15px;
-    font-weight: 600;
-    font-size: 14px;
-    border: none;
+.logo h2 span {
+    color: red;
 }
 
-/* .common-btn {
+/* header css end */
+
+/* global styles */
+.common-btn {
     border-radius: 16px;
     border: none;
     padding: 21px 27px;
-     font-size: 14px;
-     font-weight: 600;
-     font-family: "Inter", sans-serif;
-} */
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
 
-.commo-title {
+.common-title {
     font-size: 48px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
 }
+
+.common-p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+} 
