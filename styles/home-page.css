@@ -61,15 +61,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-} 
- 
+}
+
 /* .profile-john {
     padding-top: 10px;
 }
 
 .profile-john h6 {
     font-size: 16px;
-} */ 
+} */
 
 .john-info {
     margin-top: 30px;
@@ -216,7 +216,7 @@ section.categories {
 .r-card:hover {
     transition: 0.3s ease;
     transform: scale(1.05);
-    box-shadow: 0 10px 20px #16728c63;
+    box-shadow: 0 10px 20px #0d343f4c;
 }
 
 .r-card img {
@@ -258,3 +258,322 @@ section.categories {
     font-size: 24px;
     line-height: 32px;
 }
+
+/* chef-instagram css */
+
+.chek-instagram {
+    padding: 80px 0px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.chek-instagram .container>h2,
+.chek-instagram .container>p {
+    text-align: center;
+}
+
+.chek-instagram .container>h2 {
+    margin-bottom: 24px;
+}
+
+.chek-instagram .container>p {
+    width: 840px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.instagram-cards img {
+    width: 290px;
+    height: 445px;
+}
+
+.instagram-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+/* chef kitchen */
+
+.chef-left .common-btn {
+    padding: 22px 53px;
+}
+
+.chef-kitchen.container {
+    display: flex;
+    padding-top: 143px;
+    padding-bottom: 160px;
+}
+
+.chef-left {
+    align-items: center;
+    margin-top: 143px;
+    width: 526px;
+    height: 356px;
+}
+
+.chef-left h2 {
+    margin-bottom: 24px;
+}
+
+.chef-left p {
+    margin-bottom: 72px;
+}
+
+.chef-right {
+    position: relative;
+}
+
+.chef-meat {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+}
+
+.chef-green {
+    position: absolute;
+    left: 620px;
+    top: 160px;
+}
+
+.chef-luk {
+    position: absolute;
+    left: 510px;
+    top: 110px;
+}
+
+.chef-tomato {
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+}
+
+.chef-fon {
+    width: 651px;
+    height: 598px;
+    margin-left: 103px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.chef-fon img {
+    position: absolute;
+    right: 55px;
+    width: 660px;
+    height: 597px;
+}
+
+/* resipec 2 */
+
+
+
+.r-loops.container {
+    padding-top: 160px;
+}
+
+.loop-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loop-top>p {
+    width: 620px;
+    height: 56px;
+}
+
+.loop-top > h2 {
+    width: 520px;
+    height: 116px;
+}
+
+.loop-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    gap: 40px;
+    position: relative;
+}
+
+.l-like {
+    position: absolute;
+    left: 230px;
+    margin-top: 10px;
+    z-index: 3;
+}
+
+.l-card {
+    /* display: flex; */
+    /* text-align: start;  */
+    max-width: 400px;
+    width: 290px;
+    position: relative;
+    /* border-radius: 30px; */
+    /* border: 1px solid black; */
+    /* padding: 16px 16px 32px; */
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.l-card:hover {
+    transition: 0.3s ease;
+    transform: scale(1.05);
+}
+
+.l-card img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.loop-top img {
+    width: 290px;
+    height: 200px;
+}
+
+.card-bottom h3 {
+    font-size: 18px;
+}
+
+.small-btn span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+.small-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* address */
+
+.address.container {
+    padding-top: 160px;
+}
+
+.address-fon {
+    height: 442px;
+    border-radius: 60px;
+    background: rgba(231, 249, 253, 1);
+    position: relative;
+}
+
+.address1 img {
+    border-bottom-left-radius: 60px;
+    width: 390px;
+    height: 380px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.address2 img {
+    border-bottom-right-radius: 60px;
+    width: 360px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.address-title {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.address-title>.common-title {
+    padding-bottom: 24px;
+}
+
+
+.subscribe-box {
+    margin: 0 auto;
+    width: 480px;
+    height: 80px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    gap: 10px;
+    background: white;
+    margin-top: 64px;
+}
+
+.address-title>.common-p {
+    margin: 0 auto;
+    width: 620px;
+    height: 56px;
+}
+
+.email-input {
+    flex: 1;
+    /* height: 100%; */
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 24px;
+}
+
+.subscribe-box>.common-btn {
+    padding: 21px 47px;
+    font-size: 14px;
+}
+
+/* social */
+.social.container {
+    padding-top: 160px;
+}
+
+.bottom-border {
+    height: 1px;
+    width: 100%;
+    background-color: #0000001A;
+}
+
+.social-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 338px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+
+.social-end h4 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.social-end span {
+    color: #e3603c;
+    font-family: "Eudoxus Sans", sans-serif;
+}
+
+.social-common {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo h2 {
+    padding-bottom: 16px;
+}
+
+.logo p {
+    padding-bottom: 48px;
+}
+
+
