@@ -1,0 +1,35 @@
+.r-loops .loop-top h2 {
+    margin: 0 auto;
+    font-size: 36px;
+}
+
+/* main-blog */
+
+.container .blog-main {
+    padding-top: 80px;
+}
+
+.blog-main h1 {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    padding-bottom: 24px;
+}
+
+.blog-main p {
+    padding-bottom: 10px;
+}
+
+.blog-main {
+    text-align: center;
+}
+
+.blog-main .subscribe-box {
+    border: 1px solid #0000001A;
+    width: 700px;
+    height: 80px;
+}
+
+.blog-main .common-btn.btn-black {
+    padding: 22px 52px ;
+}

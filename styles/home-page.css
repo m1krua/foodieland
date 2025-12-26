@@ -109,13 +109,13 @@
     width: 165px;
 }
 
-button.btn-black {
+/* button.btn-black {
     display: inline-flex;
     align-items: center;
     gap: 15px;
     background-color: black;
     color: white;
-}
+} */
 
 .btn-sky-blue {
     background-color: #E7FAFE;
@@ -171,7 +171,7 @@ section.categories {
 
 /* recipes css*/
 
-.recipes {
+/* .recipes {
     padding-top: 183px;
     text-align: center;
 }
@@ -201,12 +201,9 @@ section.categories {
 }
 
 .r-card {
-    /* display: flex; */
-    /* text-align: start;  */
     max-width: 400px;
     border-radius: 30px;
     height: 434px;
-    /* border: 1px solid black; */
     padding: 16px 16px 32px;
     background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
     cursor: pointer;
@@ -257,7 +254,7 @@ section.categories {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-}
+} */
 
 /* chef-instagram css */
 
@@ -280,6 +277,11 @@ section.categories {
     width: 840px;
     margin: 0 auto;
     margin-bottom: 80px;
+}
+
+.chek-instagram a {
+    color: white;
+    text-decoration: none;
 }
 
 .instagram-cards img {
@@ -368,7 +370,7 @@ section.categories {
 
 
 
-.r-loops.container {
+/* .r-loops.container {
     padding-top: 160px;
 }
 
@@ -381,14 +383,16 @@ section.categories {
 .loop-top>p {
     width: 620px;
     height: 56px;
-}
+} */
+
 
 .loop-top > h2 {
     width: 520px;
     height: 116px;
 }
 
-.loop-cards {
+
+/* loop-cards {
     display: flex;
     flex-wrap: wrap;
     padding-top: 80px;
@@ -404,14 +408,9 @@ section.categories {
 }
 
 .l-card {
-    /* display: flex; */
-    /* text-align: start;  */
     max-width: 400px;
     width: 290px;
     position: relative;
-    /* border-radius: 30px; */
-    /* border: 1px solid black; */
-    /* padding: 16px 16px 32px; */
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -450,7 +449,7 @@ section.categories {
 .small-btn img {
     width: 24px;
     height: 24px;
-}
+}  */
 
 
 /* address */
@@ -515,7 +514,6 @@ section.categories {
 
 .email-input {
     flex: 1;
-    /* height: 100%; */
     border: none;
     outline: none;
     font-size: 14px;
@@ -527,53 +525,4 @@ section.categories {
     padding: 21px 47px;
     font-size: 14px;
 }
-
-/* social */
-.social.container {
-    padding-top: 160px;
-}
-
-.bottom-border {
-    height: 1px;
-    width: 100%;
-    background-color: #0000001A;
-}
-
-.social-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.social-end {
-    display: flex;
-    justify-content: flex-end;
-    gap: 338px;
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-
-
-.social-end h4 {
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.social-end span {
-    color: #e3603c;
-    font-family: "Eudoxus Sans", sans-serif;
-}
-
-.social-common {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.logo h2 {
-    padding-bottom: 16px;
-}
-
-.logo p {
-    padding-bottom: 48px;
-}
-
 
