@@ -67,3 +67,72 @@ for (const loop of loops) {
         }
     });
 }
+
+
+
+const blogs = document.querySelector('.blogs');
+
+const blogData = [
+    {
+        img: '../images/blog2.png',
+        title: '10 Vegetarian Recipes To Eat This Month',
+        avatar: '../images/blog2.svg',
+        name: 'Robert Fox'
+    },
+    {
+        img: '../images/blog3.png',
+        title: 'Warm Crochet for Winter',
+        avatar: '../images/blog3.svg',
+        name: 'Dianne Russell'
+    },
+    {
+        img: '../images/blog4.png',
+        title: 'Full Guide to Becoming a Professional Chef',
+        avatar: '../images/blog4.svg',
+        name: 'Leslie Alexander'
+    },
+    {
+        img: '../images/blog5.png',
+        title: 'Simple & Delicious Vegetarian Lasagna',
+        avatar: '../images/blog5.svg',
+        name: 'Courtney Henry'
+    },
+    {
+        img: '../images/blog6.png',
+        title: 'Plantain and Pinto Stew with Aji Verde',
+        avatar: '../images/blog6.svg',
+        name: 'Albert Flores'
+    }
+];
+
+for (const blog of blogData) {
+    blogs.innerHTML +=
+        `<div class="blog-left">
+            <div>
+                <img src="${blog.img}" alt="">
+            </div>
+
+            <div>
+                <h1>${blog.title}</h1>
+                <p class="common-p">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+                            incididunt
+                            ut labore et dolore magna aliqut enim </p>
+                <div class="profils">
+                    <img src="${blog.avatar}" alt="">
+                        <span>${blog.name}</span>
+                        <span class="profile-date">12 November 2021</span>
+                </div>
+            </div>
+        </div>`
+        ;
+}
+
+
+  const pages = document.querySelectorAll('.scroll .page');
+
+  pages.forEach(btn => {
+    btn.addEventListener('click', () => {
+      pages.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });

@@ -2,3 +2,74 @@
     margin: 0 auto;
     font-size: 36px;
 }
+
+.about {
+    /* padding: 60px; */
+    margin-top: 84px;
+}
+
+.about h1 {
+    color: black;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    padding-left: 440px;
+    padding-bottom: 80px;
+}
+
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 400px;
+    height: 472px;
+    margin-bottom: 120px;
+}
+
+.about-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+
+.about-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-field label {
+    color: #00000099;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    width: 400px;
+}
+
+.about-field input,
+.about-field select,
+.about-field textarea {
+    padding: 20px 18px;
+    border: 1px solid #0000001A;
+    border-radius: 16px;
+    color: #00000099;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.about-field textarea {
+    height: 200px;
+    resize: none;
+}
+
+
+.about-submit button{
+    margin-top: 40px;
+    padding:  20px 63px;
+}
